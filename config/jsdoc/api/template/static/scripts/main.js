@@ -278,7 +278,7 @@ $(function () {
 
   // warn about outdated version
   const currentVersion = document.getElementById('package-version').innerHTML;
-  const releaseUrl = '/resources/cdn.jsdelivr.net/npm/ol/package.json';
+  const releaseUrl = '../resources/cdn.jsdelivr.net/npm/ol/package.json';
   fetch(releaseUrl).then(function(response) {
     return response.json();
   }).then(function(json) {

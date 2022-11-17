@@ -105,7 +105,7 @@ const createTextStyle = function (feature, resolution, dom) {
   const rotation = parseFloat(dom.rotation.value);
   if (dom.font.value == "'Open Sans'" && !openSansAdded) {
     const openSans = document.createElement('link');
-    openSans.href = '/resources/fonts.googleapis.com/css.css?family=Open+Sans';
+    openSans.href = '../resources/fonts.googleapis.com/css.css?family=Open+Sans';
     openSans.rel = 'stylesheet';
     document.head.appendChild(openSans);
     openSansAdded = true;

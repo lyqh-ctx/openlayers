@@ -23,7 +23,7 @@ new Map({
   layers: [
     new TileLayer({
       source: new XYZ({
-        url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+        url: 'https://c.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=6170aad10dfd42a38d4d8c709a536f38'
       })
     })
   ],

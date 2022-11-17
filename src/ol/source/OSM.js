@@ -37,7 +37,7 @@ export const ATTRIBUTION =
  * ```
  * @property {number} [transition=250] Duration of the opacity transition for rendering.
  * To disable the opacity transition, pass `transition: 0`.
- * @property {string} [url='https://tile.openstreetmap.org/{z}/{x}/{y}.png'] URL template.
+ * @property {string} [url='https://c.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=6170aad10dfd42a38d4d8c709a536f38'] URL template.
  * Must include `{x}`, `{y}` or `{-y}`, and `{z}` placeholders.
  * @property {boolean} [wrapX=true] Whether to wrap the world horizontally.
  * @property {number|import("../array.js").NearestDirectionFunction} [zDirection=0]
@@ -70,7 +70,7 @@ class OSM extends XYZ {
     const url =
       options.url !== undefined
         ? options.url
-        : 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+        : 'https://c.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=6170aad10dfd42a38d4d8c709a536f38';
 
     super({
       attributions: attributions,

@@ -3,7 +3,7 @@ import * as render from '../../../../../../src/ol/render/canvas.js';
 describe('ol.render.canvas', function () {
   const font = document.createElement('link');
   font.href =
-    '/resources/fonts.googleapis.com/css.css?family=Abel&text=wmytzilWMYTZIL%40%23%2F%26%3F%24%2510';
+    '../resources/fonts.googleapis.com/css.css?family=Abel&text=wmytzilWMYTZIL%40%23%2F%26%3F%24%2510';
   font.rel = 'stylesheet';
 
   describe('ol.render.canvas.registerFont()', function () {
