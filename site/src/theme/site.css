@@ -519,7 +519,10 @@ div.code-toolbar>.toolbar button:before {
 .nameContainer .anchor:target+h4 {
   background-color: inherit;
 }
-
+button{
+  border: 1px solid gray;
+  margin: 5px;
+}
 @media (min-width: 1400px) {
   .container {
     max-width: 1140px;
